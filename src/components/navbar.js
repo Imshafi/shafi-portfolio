@@ -11,7 +11,8 @@ const Navbar = () => {
   const navbar = [
     { label: "Home", class: "home" },
     { label: "About", class: "about" },
-    { label: "Services", class: "services" },
+    { label: "Skills", class: "skills" },
+    { label: "Certificate", class: "certificate" },
     { label: "Contact", class: "contact" },
   ];
 

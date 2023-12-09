@@ -4,3 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* --lightgreen: rgb(217, 255, 217); */
+  /* --lightgreen: #82B4AA; */
+  /* --darkgreen: #008080; */
+  --lightgreen: #DFF0F9;
+  --darkgreen: #215350;
+}

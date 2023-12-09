@@ -2,21 +2,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: skyblue;
+    padding: 20px 50px;
+        background-color: var(--darkgreen);
 }
 
 .navbar_blk ul li {
     float: left;
     list-style-type: none;
-    padding: 0 10px;
+    padding: 10px;
 }
 
 .navbar_blk ul li a {
     text-decoration: none;
+    color: #fff;
+    }
+    
+    /* .navbar_blk ul li {
     color: #111;
 }
 
+*/ .navbar_blk ul li:last-child {
+    background-color: var(--lightgreen);
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.navbar_blk ul li a:hover {
+    text-decoration: underline;
+}
 .navbar_mobile_icon {
     display: none;
 }
@@ -37,7 +50,7 @@
 
     .mobile_navbar {
         position: absolute;
-        top: 50vh;
+        top: 74px;
         right: 50%;
         background-color: skyblue;
     }
