@@ -1,0 +1,35 @@
+.certificate_main_blk {
+    background-color: var(--lightgreen);
+    padding: 20px 50px;
+    border-bottom: 5px solid var(--darkgreen);
+}
+
+.certificate_sub_blk h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+/* .certificate_image {
+    height: 500px;
+    width: 500px;
+} */
+
+.certificate_image img {
+    height: 700px;
+    width: 100%;
+}
+
+@media screen and (max-width:780px) {
+    .certificate_main_blk {
+        padding: 20px;
+    }
+
+    .certificate_sub_blk h1 {
+        white-space: nowrap;
+    }
+
+    .certificate_image img {
+        height: 300px;
+        width: 100%;
+    }
+}

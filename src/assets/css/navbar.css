@@ -35,6 +35,9 @@
 }
 
 @media screen and (max-width:780px) {
+    .header_sub_blk {
+            padding: 20px;
+        }
     .header_main_blk {
         position: relative;
     }

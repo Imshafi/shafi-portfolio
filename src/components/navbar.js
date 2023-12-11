@@ -3,11 +3,9 @@ import "../assets/css/navbar.css";
 import { AiOutlinePartition, AiOutlineMenu } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [navbarIcon, setNavbarIcon] = useState(false);
 
-  const isMobile = window.navigator.userAgent.toLowerCase().includes("mobi");
-  console.log("..................isMobile", isMobile);
   const navbar = [
     { label: "Home", class: "home" },
     { label: "About", class: "about" },
