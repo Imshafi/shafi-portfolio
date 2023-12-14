@@ -24,6 +24,10 @@
     height: 250px;
 }
 
+.skills_ul {
+    display: flex;
+    justify-content: space-around;
+}
 
 @media screen and (max-width:780px) {
     .skills_sub_blk {

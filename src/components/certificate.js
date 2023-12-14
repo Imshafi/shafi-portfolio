@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/certificate.css";
-import certificate from "../assets/images/about_img.jpg";
+import certificate from "../assets/images/certificate.jpg";
 
 const Certificate = (props) => {
   return (

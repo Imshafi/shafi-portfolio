@@ -16,12 +16,8 @@
     text-decoration: none;
     color: #fff;
     }
-    
-    /* .navbar_blk ul li {
-    color: #111;
-}
 
-*/ .navbar_blk ul li:last-child {
+        /* .navbar_blk ul li:last-child {
     background-color: var(--lightgreen);
     padding: 10px 30px;
     border-radius: 4px;
@@ -30,6 +26,8 @@
 .navbar_blk ul li a:hover {
     text-decoration: underline;
 }
+
+*/
 .navbar_mobile_icon {
     display: none;
 }

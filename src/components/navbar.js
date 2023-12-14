@@ -11,6 +11,7 @@ const Navbar = (props) => {
     { label: "About", class: "about" },
     { label: "Skills", class: "skills" },
     { label: "Certificate", class: "certificate" },
+    { label: "Projects", class: "project" },
     { label: "Contact", class: "contact" },
   ];
 
@@ -19,14 +20,22 @@ const Navbar = (props) => {
       <div className="header_sub_blk">
         <div className="logo_img">
           {/* <img src={} /> */}
-          <AiOutlinePartition size={30} />
+          <AiOutlinePartition size={30} color="#ffffff" />
         </div>
         <div className="navbar_main_blk">
           <div className="navbar_mobile_icon">
             {navbarIcon ? (
-              <RxCross2 size={30} onClick={() => setNavbarIcon(false)} />
+              <RxCross2
+                color="#ffffff"
+                size={30}
+                onClick={() => setNavbarIcon(false)}
+              />
             ) : (
-              <AiOutlineMenu size={30} onClick={() => setNavbarIcon(true)} />
+              <AiOutlineMenu
+                color="#ffffff"
+                size={30}
+                onClick={() => setNavbarIcon(true)}
+              />
             )}
           </div>
           <div className={navbarIcon ? "mobile_navbar" : "navbar_blk"}>

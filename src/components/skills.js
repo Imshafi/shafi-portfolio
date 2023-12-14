@@ -1,5 +1,5 @@
 import React from "react";
-import { PieChart, Pie, Treemap, ResponsiveContainer } from "recharts";
+import { Treemap, ResponsiveContainer } from "recharts";
 import "../assets/css/skills.css";
 
 const Skills = (props) => {
@@ -356,9 +356,32 @@ const Skills = (props) => {
         )}
         <div className="skills_content_blk">
           <p>
-            Although highly skilled in numerous Although highly skilled in
-            numerous Although highly skilled in numerous Although highly skilled
-            in numerous Although highly skilled in numerous
+            Dedicated and Innovative software engineer with 1 year experience in
+            building, maintaining responsive sites as well as understanding and
+            anticipating the agile infrastructure needs and creating an
+            environment where development, quality assurance, staging &
+            production work can proceed efficiently and securely.
+            {/* <div className="skills_ul">
+              <div>
+                <ul>
+                  <li>React js</li>
+                  <li>Javascript</li>
+                  <li>Redux</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </div>
+              <li>Node js</li>
+              <li>SQL</li>
+              <li>Mongo DB</li>
+              <div>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Git</li>
+                  <li>Jira</li>
+                </ul>
+              </div>
+            </div> */}
           </p>
           <div className="skills_graph">
             <ResponsiveContainer
