@@ -347,7 +347,7 @@ const Skills = (props) => {
   ];
 
   return (
-    <div className="skills_main_blk">
+    <div className="skills_main_blk" id="about">
       <div className="skills_sub_blk">
         {props?.isMobile ? (
           <h1>----------- Skills -----------</h1>

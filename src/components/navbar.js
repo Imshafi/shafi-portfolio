@@ -42,7 +42,7 @@ const Navbar = (props) => {
             <ul>
               {navbar?.map((obj, i) => (
                 <li key={i}>
-                  <a href="#">{obj.label}</a>
+                  <a href={`#${obj?.class}`}>{obj.label}</a>
                 </li>
               ))}
             </ul>

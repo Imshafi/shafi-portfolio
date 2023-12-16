@@ -37,7 +37,7 @@ const Footer = (props) => {
     })
   }
   return (
-    <div className="footer_main_blk">
+    <div className="footer_main_blk" id="contact">
       <div className="footer_sub_blk">
         {props?.isMobile ? (
           <h1>Get in touch!</h1>

@@ -4,7 +4,7 @@ import ABOUT_IMG from "../assets/images/cropped_image (1).png";
 import MOBILE_ABOUT_IMG from "../assets/images/about_img.jpg";
 const About = (props) => {
   return (
-    <div className="about_main_blk">
+    <div className="about_main_blk" id="about">
       <div className="about_sub_blk">
         <div className="about_name_blk">
           <div className="about_name_sub_blk">

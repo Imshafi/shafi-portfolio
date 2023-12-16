@@ -4,7 +4,7 @@ import certificate from "../assets/images/certificate.jpg";
 
 const Certificate = (props) => {
   return (
-    <div className="certificate_main_blk">
+    <div className="certificate_main_blk" id="certificate">
       <div className="certificate_sub_blk">
         {props?.isMobile ? (
           <h1>-------- Certificate --------</h1>

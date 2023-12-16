@@ -21,7 +21,7 @@ const Projects = (props) => {
   ];
 
   return (
-    <div className="projects_main_blk">
+    <div className="projects_main_blk" id="project">
       <div className="projects_sub_blk">
         {props?.isMobile ? (
           <h1>-------- Projects --------</h1>
