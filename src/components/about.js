@@ -9,7 +9,7 @@ const About = (props) => {
         <div className="about_name_blk">
           <div className="about_name_sub_blk">
             <h1>Shaik Shafi</h1>
-            <p>Frontend Developer @Careers360</p>
+            <p>Software Developer @Careers360</p>
           </div>
         </div>
         {props?.isMobile ? (
